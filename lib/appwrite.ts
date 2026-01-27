@@ -1,4 +1,4 @@
-import { CreateUserParams, SignInParams } from "@/app/type";
+import { CreateUserParams, SignInParams } from "@/type";
 import {
   Account,
   Avatars,
@@ -12,7 +12,7 @@ export const appwriteConfig = {
   endpoint: process.env.EXPO_PUBLIC_APPWRITE_ENDPOINT,
   platform: "com.cmp.foodorder",
   projectId: process.env.EXPO_PUBLIC_APPWRITE_PROJECT_ID,
-  databaseId: process.env.EXPO_PUBLIC_APPWRITE_DATABASE,
+  databaseId: "69697bd1002b7c49d5d1",
   userCollectionId: "user",
 };
 
