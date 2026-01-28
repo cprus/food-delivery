@@ -16,7 +16,6 @@ import "../globals.css";
 export default function App() {
   const { user } = useAuthStore();
 
-  console.log("Current User:", user);
   return (
     <SafeAreaView className="flex-1 bg-white">
       <FlatList
