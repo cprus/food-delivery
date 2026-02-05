@@ -1,12 +1,13 @@
-import React from 'react'
-import { Text, View } from 'react-native'
+import React from "react";
+import { Text } from "react-native";
+import { SafeAreaView } from "react-native-safe-area-context";
 
 const Profile = () => {
   return (
-    <View>
-      <Text>Profile</Text>
-    </View>
-  )
-}
+    <SafeAreaView>
+      <Text className="base-semibold text-dark-100 text-center">Profile</Text>
+    </SafeAreaView>
+  );
+};
 
-export default Profile
+export default Profile;
